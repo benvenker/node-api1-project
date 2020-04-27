@@ -1,0 +1,15 @@
+{
+  "name": "node-api1-project",
+  "version": "1.0.0",
+  "description": "Lambda School node API1 project",
+  "main": "index.js",
+  "repository": "git@github.com:benvenker/node-api1-project.git",
+  "author": "Ben Venker <bvemails@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
