@@ -36,12 +36,12 @@ function getUsers() {
 }
 
 function getUserById(id) {
-  return users.find((u) => u.id === id);
+  return users.find((user) => user.id === id);
 }
 
 function createUser(data) {
   const payload = {
-    id: String(users.length + 1),
+    id: Number(users.length + 1),
     ...data,
   };
 
